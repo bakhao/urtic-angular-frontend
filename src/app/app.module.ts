@@ -10,6 +10,7 @@ import { initializer } from './config/keycloak/app-init';
 import { MaterialModule } from './shares/modules/material/material.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { CompletProfileFormComponent } from './complet-profile-form/complet-profile-form.component';
 
 export function initConfiguration(configService: ConfigService): Function {
   return async () => await configService.loadConfiguration();
@@ -17,7 +18,8 @@ export function initConfiguration(configService: ConfigService): Function {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CompletProfileFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,59 @@
+Form.component.css
+.navigationButtonSpacing {
+ border: none;
+ display: flex;
+ justify-content: space-between;
+}
+.radioInputSpacing {
+ border: none;
+ display: inline-block;
+ text-align: center;
+ justify-content: space-between;
+ margin: 2vh;
+}
+.nav-btn {
+ border: none;
+ display: inline-flex;
+ align-items: center;
+}
+.nav-btn p {
+ margin: 0 10px;
+ font-weight: bold;
+ color: black;
+}
+#nav-btn-next {
+ border: none;
+ background: url("../../assets/icons/next.png") no-repeat center;
+ background-size: cover;
+ width: 42px;
+ height: 42px;
+}
+#nav-btn-previous {
+ border: none;
+ border: 0;
+ background: url("../../assets/icons/previous.png") no-repeat center;
+ background-size: cover;
+ width: 42px;
+ height: 42px;
+}
+.text-input {
+ border-radius: 1vh;
+ border: lightgrey 2px solid;
+ box-shadow: none;
+ padding: 2vh;
+ border-style: solid;
+ outline: none;
+ padding: 3vh;
+ margin: 1vh;
+}
+.text-input::placeholder {
+ color: black;
+ font-style: normal;
+}
+.form-label {
+ font-weight: bold;
+ text-align: center;
+}
+.form-container {
+ display: grid;
+}
