@@ -1,0 +1,1 @@
+http-server -p 8080 -S -C cert.pem -o -c-1 dist/baseProjectV12
